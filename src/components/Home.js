@@ -1,5 +1,5 @@
 import React from "react";
-
+import {username, city} from "../data/user"
 function Home() {
   return (
     <div id="home">
@@ -9,3 +9,6 @@ function Home() {
     </div>
   );
 }
+
+let movieDisplay = document.getElementById('movie-display')
+export default Home;

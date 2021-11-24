@@ -7,3 +7,6 @@ function NavBar() {
     </nav>
   );
 }
+
+let movieDisplay = document.getElementById('movie-display')
+export default NavBar;

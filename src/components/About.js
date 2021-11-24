@@ -1,5 +1,6 @@
 import React from "react";
-
+import { image } from "../data/user";
+console.log(image)
 function About() {
   return (
     <div id="about">
@@ -9,3 +10,7 @@ function About() {
     </div>
   );
 }
+
+let movieDisplay = document.getElementById('movie-display')
+
+export default About;
